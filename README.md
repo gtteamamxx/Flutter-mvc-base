@@ -12,8 +12,15 @@ It provides basic functionality of MVC pattern to flutter applications.
 ## Creating controllers
 
 ### StatefulWidget
-When using controllers on Stateful widgets, controller must extends `StateControllerMVC` class
+When using controllers on Stateful widgets, controller must extends `StateControllerMVC` class.
+For example:
+![alt text](https://github.com/gtteamamxx/Flutter-mvc-base/blob/master/image3.png)
 
+
+### StatelessWidget
+When using controllers on Stateless widgets, controller must extends `ControllerMVC` class.
+For example:
+![alt text](https://github.com/gtteamamxx/Flutter-mvc-base/blob/master/image4.png)
 
 ## Creating widgets
 
