@@ -9,6 +9,14 @@ It provides basic functionality of MVC pattern to flutter applications.
 
 # How to use
 
+## Creating controllers
+
+### StatefulWidget
+When using controllers on Stateful widgets, controller must extends `StateControllerMVC` class
+
+
+## Creating widgets
+
 ### StatefulWidget
 
 1. Simply create `StatefulWidget` as you created it as always.
@@ -19,5 +27,7 @@ It provides basic functionality of MVC pattern to flutter applications.
 ![alt text](https://github.com/gtteamamxx/Flutter-mvc-base/blob/master/image.png)
 
 ### StatelessWidget
+
 1. Create stateless widget by using `StatelessMVC<T>` type
-2. Use controller by `controller` variable
+1. Use controller by `controller` variable
+![alt_text](https://github.com/gtteamamxx/Flutter-mvc-base/blob/master/image2.png)
