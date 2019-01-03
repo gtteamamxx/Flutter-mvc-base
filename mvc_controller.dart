@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
 
 class ControllerMVC {
-  StateMVC _state;
-
   @virtual
   void initState() {}
   @virtual
   void dispose() { }
+}
+
+class StateControllerMVC extends ControllerMVC {
+  StateMVC _state;
 
   void setState(VoidCallback state) {
     _state._setStateMVC(state);
@@ -16,10 +18,16 @@ class ControllerMVC {
   void _setStateMVC(StateMVC state) => _state = state; 
 }
 
-abstract class StateMVC<T extends StatefulWidget, C extends ControllerMVC> extends State<T>{
-  C controller;
+abstract class StatelessMVC<C extends ControllerMVC> extends StatelessWidget {
+  final C controller;
 
-  StateMVC([this.controller]) : super() {
+  StatelessMVC(this.controller) : super();
+}
+
+abstract class StateMVC<T extends StatefulWidget, C extends StateControllerMVC> extends State<T>{
+  final C controller;
+
+  StateMVC(this.controller) : super() {
     controller?._setStateMVC(this);
   }
 
