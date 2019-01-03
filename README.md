@@ -39,3 +39,7 @@ For example:
 1. Create stateless widget by using `StatelessMVC<T>` type
 1. Use controller by `controller` variable
 ![alt_text](https://github.com/gtteamamxx/Flutter-mvc-base/blob/master/image2.png)
+
+### Example of working above code:
+
+![alt text](https://raw.githubusercontent.com/gtteamamxx/Flutter-mvc-base/master/gif.gif)
