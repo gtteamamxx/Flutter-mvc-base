@@ -1,6 +1,6 @@
-# Flutter MVC Base
+# Flutter MVC Base Pattern
 
-It provides basic functionality of MVC pattern to flutter applications.
+It provides basic and simply functionality of MVC pattern to flutter applications.
 
 # Installation
 
