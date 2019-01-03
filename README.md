@@ -16,3 +16,8 @@ It provides basic functionality of MVC pattern to flutter applications.
 1. Pass to Widget state a controller 
 1. Use controller by `controller` variable
 
+![alt text](https://github.com/gtteamamxx/Flutter-mvc-base/blob/master/image.png)
+
+### StatelessWidget
+1. Create stateless widget by using `StatelessMVC<T>` type
+2. Use controller by `controller` variable
